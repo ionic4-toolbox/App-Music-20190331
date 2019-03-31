@@ -1,1 +1,17 @@
+$tabBgColor: #282828; // tab的背景色
+$mainBgColor: #181818; // main的背景色
 
+ion-tabs {
+    :host .scroll-y {
+        background-color: $mainBgColor;
+    }
+
+    ion-tab-bar {
+        background-color: $tabBgColor;
+
+        ion-tab-button {
+            background-color: $tabBgColor;
+        }
+    }
+
+}
